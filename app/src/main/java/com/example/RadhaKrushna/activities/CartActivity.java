@@ -1,6 +1,5 @@
-package com.example.aexpress.activities;
+package com.example.RadhaKrushna.activities;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -9,10 +8,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.aexpress.R;
-import com.example.aexpress.adapters.CartAdapter;
-import com.example.aexpress.databinding.ActivityCartBinding;
-import com.example.aexpress.model.Product;
+import com.example.RadhaKrushna.R;
+import com.example.RadhaKrushna.adapters.CartAdapter;
+import com.example.RadhaKrushna.databinding.ActivityCartBinding;
+import com.example.RadhaKrushna.model.Product;
 import com.hishd.tinycart.model.Cart;
 import com.hishd.tinycart.model.Item;
 import com.hishd.tinycart.util.TinyCartHelper;

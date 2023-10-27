@@ -1,4 +1,4 @@
-package com.example.aexpress.activities;
+package com.example.RadhaKrushna.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -6,7 +6,6 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -14,13 +13,13 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.aexpress.R;
-import com.example.aexpress.adapters.CategoryAdapter;
-import com.example.aexpress.adapters.ProductAdapter;
-import com.example.aexpress.databinding.ActivityMainBinding;
-import com.example.aexpress.model.Category;
-import com.example.aexpress.model.Product;
-import com.example.aexpress.utils.Constants;
+import com.example.RadhaKrushna.R;
+import com.example.RadhaKrushna.adapters.CategoryAdapter;
+import com.example.RadhaKrushna.adapters.ProductAdapter;
+import com.example.RadhaKrushna.databinding.ActivityMainBinding;
+import com.example.RadhaKrushna.model.Category;
+import com.example.RadhaKrushna.model.Product;
+import com.example.RadhaKrushna.utils.Constants;
 import com.mancj.materialsearchbar.MaterialSearchBar;
 
 import org.imaginativeworld.whynotimagecarousel.model.CarouselItem;
@@ -187,6 +186,7 @@ public class MainActivity extends AppCompatActivity {
     void initProducts() {
         products = new ArrayList<>();
         productAdapter = new ProductAdapter(this, products);
+//        products.add(new Product("sugar","https://www.bing.com/images/search?view=detailV2&ccid=S0ssydR7&id=D2D1ED5FE90394E78A37F443FBAA092804059276&thid=OIP.S0ssydR78woFCMo--RlOHAHaFf&mediaurl=https%3a%2f%2fmedia.self.com%2fphotos%2f589231acc51a5afe4864598f%2fmaster%2fpass%2fadded-sugar.jpg&exph=950&expw=1280&q=sugar+images&simid=608053140744462121&FORM=IRPRST&ck=C2D113FF597FE6B8E2AE85A4B44C7739&selectedIndex=2","",40,5,200,1));
 
         getRecentProducts();
 

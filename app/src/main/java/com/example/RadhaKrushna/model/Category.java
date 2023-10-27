@@ -1,4 +1,4 @@
-package com.example.aexpress.model;
+package com.example.RadhaKrushna.model;
 
 public class Category {
     private String name, icon, color, brief;

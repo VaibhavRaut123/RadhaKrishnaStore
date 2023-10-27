@@ -1,4 +1,4 @@
-package com.example.aexpress.activities;
+package com.example.RadhaKrushna.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DividerItemDecoration;
@@ -19,13 +19,12 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.aexpress.R;
-import com.example.aexpress.adapters.CartAdapter;
-import com.example.aexpress.databinding.ActivityCheckoutBinding;
-import com.example.aexpress.model.Product;
-import com.example.aexpress.utils.Constants;
+import com.example.RadhaKrushna.R;
+import com.example.RadhaKrushna.adapters.CartAdapter;
+import com.example.RadhaKrushna.databinding.ActivityCheckoutBinding;
+import com.example.RadhaKrushna.model.Product;
+import com.example.RadhaKrushna.utils.Constants;
 import com.hishd.tinycart.model.Cart;
 import com.hishd.tinycart.model.Item;
 import com.hishd.tinycart.util.TinyCartHelper;
@@ -45,7 +44,7 @@ public class CheckoutActivity extends AppCompatActivity {
     CartAdapter adapter;
     ArrayList<Product> products;
     double totalPrice = 0;
-    final int tax = 11;
+    final int tax = 5;
     ProgressDialog progressDialog;
     Cart cart;
 
@@ -159,7 +158,7 @@ public class CheckoutActivity extends AppCompatActivity {
                         .setPositiveButton("Pay Now", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
-                                Intent intent = new Intent(CheckoutActivity.this, PaymentActivity.class);
+                                Intent intent = new Intent(CheckoutActivity.this, QrScanner.class);
                                 intent.putExtra("orderCode", orderNumber);
                                 startActivity(intent);
                             }

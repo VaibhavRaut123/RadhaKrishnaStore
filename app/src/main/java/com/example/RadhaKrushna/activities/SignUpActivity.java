@@ -1,4 +1,4 @@
-package com.example.aexpress.activities;
+package com.example.RadhaKrushna.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,10 +10,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.aexpress.R;
-import com.example.aexpress.dataModel.StudentDataModel;
-import com.example.aexpress.db.MyDbHelper;
-import com.example.aexpress.utils.SignUpFormValidation;
+import com.example.RadhaKrushna.R;
+import com.example.RadhaKrushna.dataModel.StudentDataModel;
+import com.example.RadhaKrushna.db.MyDbHelper;
+import com.example.RadhaKrushna.utils.SignUpFormValidation;
 
 
 public class SignUpActivity extends AppCompatActivity {

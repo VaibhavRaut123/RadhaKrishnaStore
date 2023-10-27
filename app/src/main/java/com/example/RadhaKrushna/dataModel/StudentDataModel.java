@@ -1,10 +1,6 @@
-package com.example.aexpress.dataModel;
+package com.example.RadhaKrushna.dataModel;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-
-import com.example.aexpress.R;
+import com.example.RadhaKrushna.R;
 
 public class StudentDataModel {
     String firstName;

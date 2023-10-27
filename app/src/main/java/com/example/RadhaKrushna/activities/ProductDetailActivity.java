@@ -1,4 +1,4 @@
-package com.example.aexpress.activities;
+package com.example.RadhaKrushna.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,7 +9,6 @@ import android.text.Html;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -18,10 +17,10 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.bumptech.glide.Glide;
-import com.example.aexpress.R;
-import com.example.aexpress.databinding.ActivityProductDetailBinding;
-import com.example.aexpress.model.Product;
-import com.example.aexpress.utils.Constants;
+import com.example.RadhaKrushna.R;
+import com.example.RadhaKrushna.databinding.ActivityProductDetailBinding;
+import com.example.RadhaKrushna.model.Product;
+import com.example.RadhaKrushna.utils.Constants;
 import com.hishd.tinycart.model.Cart;
 import com.hishd.tinycart.util.TinyCartHelper;
 

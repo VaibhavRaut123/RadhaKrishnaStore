@@ -1,4 +1,4 @@
-package com.example.aexpress.adapters;
+package com.example.RadhaKrushna.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,10 +12,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.aexpress.R;
-import com.example.aexpress.activities.CategoryActivity;
-import com.example.aexpress.databinding.ItemCategoriesBinding;
-import com.example.aexpress.model.Category;
+import com.example.RadhaKrushna.R;
+import com.example.RadhaKrushna.activities.CategoryActivity;
+import com.example.RadhaKrushna.databinding.ItemCategoriesBinding;
+import com.example.RadhaKrushna.model.Category;
 
 import java.util.ArrayList;
 

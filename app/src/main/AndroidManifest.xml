@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.aexpress">
+    package="com.example.RadhaKrushna">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AExpress"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activities.QrScanner"
+            android:exported="false" />
         <activity
             android:name=".activities.SignUpActivity"
             android:exported="false" />
@@ -53,13 +56,7 @@
             android:theme="@style/Theme.AExpress.Actionbar" />
         <activity
             android:name=".activities.MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"

@@ -1,4 +1,4 @@
-package com.example.aexpress.activities;
+package com.example.RadhaKrushna.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -9,10 +9,10 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.aexpress.adapters.ProductAdapter;
-import com.example.aexpress.databinding.ActivityCategoryBinding;
-import com.example.aexpress.model.Product;
-import com.example.aexpress.utils.Constants;
+import com.example.RadhaKrushna.adapters.ProductAdapter;
+import com.example.RadhaKrushna.databinding.ActivityCategoryBinding;
+import com.example.RadhaKrushna.model.Product;
+import com.example.RadhaKrushna.utils.Constants;
 
 import org.json.JSONArray;
 import org.json.JSONException;

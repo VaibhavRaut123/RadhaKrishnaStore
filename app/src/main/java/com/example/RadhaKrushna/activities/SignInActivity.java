@@ -1,4 +1,4 @@
-package com.example.aexpress.activities;
+package com.example.RadhaKrushna.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,10 +11,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 
-import com.example.aexpress.R;
-import com.example.aexpress.db.MyDbHelper;
-
-import java.util.ArrayList;
+import com.example.RadhaKrushna.R;
+import com.example.RadhaKrushna.db.MyDbHelper;
 
 public class SignInActivity extends AppCompatActivity {
     Button btn_signin, btn_signup;

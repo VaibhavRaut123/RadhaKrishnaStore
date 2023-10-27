@@ -1,4 +1,4 @@
-package com.example.aexpress.adapters;
+package com.example.RadhaKrushna.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,12 +10,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.aexpress.R;
-import com.example.aexpress.activities.ProductDetailActivity;
-import com.example.aexpress.databinding.ItemProductBinding;
-import com.example.aexpress.model.Product;
+import com.example.RadhaKrushna.R;
+import com.example.RadhaKrushna.activities.ProductDetailActivity;
+import com.example.RadhaKrushna.databinding.ItemProductBinding;
+import com.example.RadhaKrushna.model.Product;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductViewHolder> {

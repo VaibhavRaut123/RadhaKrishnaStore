@@ -1,4 +1,4 @@
-package com.example.aexpress.db;
+package com.example.RadhaKrushna.db;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,9 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 
-import com.example.aexpress.dataModel.StudentDataModel;
-
-import java.util.ArrayList;
+import com.example.RadhaKrushna.dataModel.StudentDataModel;
 
 public class MyDbHelper extends SQLiteOpenHelper {
 

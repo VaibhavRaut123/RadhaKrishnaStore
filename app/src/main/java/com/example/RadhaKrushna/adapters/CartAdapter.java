@@ -1,4 +1,4 @@
-package com.example.aexpress.adapters;
+package com.example.RadhaKrushna.adapters;
 
 import android.content.Context;
 import android.graphics.drawable.ColorDrawable;
@@ -12,12 +12,10 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.aexpress.R;
-import com.example.aexpress.activities.CartActivity;
-import com.example.aexpress.databinding.ItemCartBinding;
-import com.example.aexpress.databinding.ItemCategoriesBinding;
-import com.example.aexpress.databinding.QuantityDialogBinding;
-import com.example.aexpress.model.Product;
+import com.example.RadhaKrushna.R;
+import com.example.RadhaKrushna.databinding.ItemCartBinding;
+import com.example.RadhaKrushna.databinding.QuantityDialogBinding;
+import com.example.RadhaKrushna.model.Product;
 import com.hishd.tinycart.model.Cart;
 import com.hishd.tinycart.util.TinyCartHelper;
 
